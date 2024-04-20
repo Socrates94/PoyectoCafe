@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-h1{
-    text-align: center;
-    font-family: "Open Sans", sans-serif;
-    font-family: "PT Sans", sans-serif;
-}
-=======
+
 :root{
     --fuenteHeading: "PT Sans", sans-serif;
     --fuenteParrafo: "Open Sans", sans-serif;
@@ -133,4 +127,4 @@ img{
     font-size: 1.8rem;
     color: var(--blanco); 
 }
->>>>>>> 119bb556da41c88737d5c9165698f38a8c3cfdad
+
