@@ -1,4 +1,3 @@
-
 :root{
     --fuenteHeading: "PT Sans", sans-serif;
     --fuenteParrafo: "Open Sans", sans-serif;
@@ -76,7 +75,7 @@ img{
 
 .header{
     background-image: url(../img/banner.jpg);
-    height: 60rem;
+    height: 70rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -128,3 +127,44 @@ img{
     color: var(--blanco); 
 }
 
+
+@media (min-width: 768px) {
+    .contenido-principal{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        gap: 2rem;
+    }
+}
+
+.entrada{
+    border-bottom: 2px solid gray;
+    margin-bottom: 2rem;
+}
+
+.entrada:last-of-type{
+    border: none;
+    margin-bottom: 0;
+}
+
+.boton{
+    display: block;
+    font-family: var(--fuenteHeading);
+    color: var(--blanco);
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+
+    .boton{
+        display: inline-block;
+    }
+}
+
+.boton--primario{
+    background-color: var(--negro);
+}
