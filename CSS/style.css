@@ -36,6 +36,7 @@ a{
 
 h1, h2, h3, h4{
     font-family: var(--fuenteHeading);
+    line-height: 4rem;
 }
 
 h1{
@@ -93,6 +94,10 @@ img{
     }
 }
 
+.barra{
+    padding: 2rem;
+}
+
 @media (min-width: 768px){
     .barra{
         display: flex;
@@ -125,6 +130,7 @@ img{
     text-align: center;
     font-size: 1.8rem;
     color: var(--blanco); 
+    padding-top: 2rem;
 }
 
 
@@ -156,6 +162,7 @@ img{
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 2rem;
+    border-radius: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -167,4 +174,72 @@ img{
 
 .boton--primario{
     background-color: var(--negro);
+}
+
+.boton--secundario{
+    background-color: var(--primario);
+}
+
+.cursos{
+    list-style: none;
+}
+
+.widget-cursos{
+    border-bottom: 2px solid gray;
+    margin-bottom: 2rem;
+}
+
+.widget-cursos:last-of-type{
+    border: none;
+    margin-bottom: 0;
+}
+
+.widget-curso__label{
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+}
+
+.widget-curso__info{
+    font-weight: normal;
+}
+
+.footer{
+    background-color: var(--negro);
+    padding: 3rem 0;
+    margin-top: 3rem;
+}
+
+@media (min-width: 768px) {
+    .sobre-nosotros{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .curso{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 2rem;
+    }
+}
+
+.curso{
+    padding: 3rem 0;
+    border-bottom: 2px solid gray;
+    margin-bottom: 2rem;
+}
+
+.curso:last-of-type{
+    border: none;
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .nosotros{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
 }
