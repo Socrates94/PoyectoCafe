@@ -59,8 +59,37 @@
 
   </header>
 
-  <main>
-    <h1>pagina contacto</h1>
+  <main class="contenedor">
+    <h3 class="centrar-texto">Contanctanos</h3>
+
+    <div class="contacto-bg">
+    </div>
+
+    <form class="formulario">
+      
+      <div class="campo">
+        <label for="nombre" class="campo__label">Nombre: </label>
+        <input class="campo__field" type="text" placeholder="tu nombre" id="nombre">
+      </div>
+
+      <div class="campo">
+        <label for="email" class="campo__label">Email: </label>
+        <input class="campo__field" type="email" placeholder="tu email" id="email">
+      </div>
+
+      <div class="campo">
+        <label for="mensaje" class="campo__label">Mensaje: </label>
+        <textarea class="campo__field campo__field--textarea" placeholder="deja tu opinion" id="mensaje">
+          
+        </textarea>
+      </div>
+
+    </form>
+
+    <div class="campo">
+      <input type="submit" class="boton boton--primario">
+    </div>
+
   </main>
   
   <footer class="footer">
